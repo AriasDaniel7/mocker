@@ -1,0 +1,7 @@
+@use "./../../../utilities/sass/variables.scss" as var;
+
+h1 {
+  color: var.$texto-principal;
+  padding-top: 2px;
+  padding-bottom: 66.5px;
+}

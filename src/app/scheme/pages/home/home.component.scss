@@ -1,0 +1,5 @@
+@use "./../../../utilities/sass/variables.scss" as var;
+
+h1 {
+  color: var.$texto-principal;
+}
