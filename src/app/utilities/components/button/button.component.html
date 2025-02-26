@@ -1,6 +1,11 @@
-<button class="btn">
+<button class="btn" type="{{ type }}">
   <div class="flex justify-between items-center space-x-2">
-    <img src="./subir.svg" alt="icono de subir archivo" />
+    <img
+      src="{{ srcImg }}"
+      alt="{{ altImg }}"
+      width="{{ widhtImg }}"
+      height="{{ heightImg }}"
+    />
     <span>{{ title }}</span>
   </div>
 </button>

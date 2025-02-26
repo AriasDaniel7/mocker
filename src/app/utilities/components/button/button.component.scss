@@ -1,4 +1,5 @@
 @use "./../../../utilities/sass/variables.scss" as var;
+@use 'sass:color';
 
 .btn {
   background-color: var.$primario;
@@ -19,7 +20,7 @@
   }
 
   &:hover {
-    background-color: darken(var.$primario, 5%);
-    color: darken(var.$texto-principal, 90%);
+    background-color: color.scale(var.$primario, $lightness: -10%);
+    color: color.scale(var.$texto-principal, $lightness: -90%);
   }
 }
