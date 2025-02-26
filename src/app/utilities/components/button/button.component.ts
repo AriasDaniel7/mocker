@@ -12,16 +12,4 @@ export class ButtonComponent {
 
   @Input()
   public type = 'button';
-
-  @Input()
-  public srcImg = '';
-
-  @Input()
-  public altImg = '';
-
-  @Input()
-  public widhtImg = '';
-
-  @Input()
-  public heightImg = '';
 }
