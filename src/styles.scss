@@ -1,6 +1,5 @@
 @use "./app/utilities/sass/variables.scss" as var;
 
-
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
@@ -10,7 +9,3 @@ body {
   font-family: var.$fuente-principal;
 }
 
-html,
-body {
-  height: 100%;
-}

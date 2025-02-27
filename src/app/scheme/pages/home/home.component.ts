@@ -1,7 +1,7 @@
 import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { ButtonComponent } from '../../../utilities/components/button/button.component';
-import { SearchComponent } from '../../../utilities/components/search/search.component';
+import { ButtonComponent } from '../../../shared/components/button/button.component';
+import { SearchComponent } from '../../../shared/components/search/search.component';
 import { TableComponent } from '../../components/table/table.component';
 
 @Component({

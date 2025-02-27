@@ -1,7 +1,7 @@
 import { Component, Input } from '@angular/core';
 
 @Component({
-  selector: 'app-utilities-button',
+  selector: 'app-shared-button',
   imports: [],
   templateUrl: './button.component.html',
   styleUrl: './button.component.scss',

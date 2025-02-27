@@ -1,7 +1,7 @@
 import { Component, Input } from '@angular/core';
 
 @Component({
-  selector: 'app-utilities-search',
+  selector: 'app-shared-search',
   imports: [],
   templateUrl: './search.component.html',
   styleUrl: './search.component.scss',
