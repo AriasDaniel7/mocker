@@ -7,16 +7,15 @@
   ></app-shared-button>
 </div>
 
+@if (!loading) {
 <div class="pt-16">
   <app-shared-search title="Filtrar por nombre..."></app-shared-search>
 </div>
-
 <div class="pt-6 pb-6">
-  @if (!loading) {
   <app-schema-table [schemas]="schemas"></app-schema-table>
-  } @else {
-  <div class="container-center pt-10">
-    <mat-spinner></mat-spinner>
-  </div>
-  }
 </div>
+}@else {
+<div class="container-center pt-20">
+  <mat-spinner></mat-spinner>
+</div>
+}
