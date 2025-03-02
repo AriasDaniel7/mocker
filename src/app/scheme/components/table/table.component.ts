@@ -1,4 +1,5 @@
-import { Component } from '@angular/core';
+import { Component, Input } from '@angular/core';
+import { Schema } from '../../interfaces/schema.interface';
 
 @Component({
   selector: 'app-schema-table',
@@ -6,4 +7,7 @@ import { Component } from '@angular/core';
   templateUrl: './table.component.html',
   styleUrl: './table.component.scss',
 })
-export class TableComponent {}
+export class TableComponent {
+  @Input()
+  public schemas: Schema[] = [];
+}

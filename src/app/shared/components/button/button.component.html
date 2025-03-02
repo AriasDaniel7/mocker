@@ -1,4 +1,12 @@
-<button class="btn" type="{{ type }}">
+<input
+  (change)="onFileSelected($event)"
+  #fileInput
+  type="file"
+  hidden
+  accept=".yaml, .yml"
+/>
+
+<button class="btn" type="{{ type }}" (click)="fileInput.click()">
   <div class="flex justify-between items-center space-x-2">
     <svg
       width="14"
